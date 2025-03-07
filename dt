@@ -1,0 +1,56 @@
+import { useState } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { DatePicker } from "@/components/ui/datepicker";
+import { Input } from "@/components/ui/input";
+
+const properties = [
+  { id: 1, name: "Cozy Studio", price: 20, image: "/studio1.jpg" },
+  { id: 2, name: "Modern Loft", price: 35, image: "/loft1.jpg" },
+  { id: 3, name: "Spacious Apartment", price: 50, image: "/apartment1.jpg" }
+];
+
+export default function RentalBooking() {
+  const [selectedProperty, setSelectedProperty] = useState(null);
+  const [date, setDate] = useState(null);
+  const [hours, setHours] = useState(1);
+
+  const handleBooking = (property) => {
+    setSelectedProperty(property);
+  };
+
+  return (
+    <div className="p-6 max-w-4xl mx-auto">
+      <h1 className="text-2xl font-bold mb-4">Book a Rental Place</h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {properties.map((property) => (
+          <Card key={property.id} className="p-4">
+            <img src={property.image} alt={property.name} className="w-full h-40 object-cover rounded-md" />
+            <CardContent>
+              <h2 className="text-lg font-semibold">{property.name}</h2>
+              <p className="text-gray-600">${property.price}/hour</p>
+              <Button className="mt-2" onClick={() => handleBooking(property)}>
+                Book Now
+              </Button>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+      {selectedProperty && (
+        <div className="mt-6 p-4 border rounded-md bg-gray-100">
+          <h2 className="text-xl font-semibold">Booking: {selectedProperty.name}</h2>
+          <DatePicker onChange={setDate} className="mt-2" />
+          <Input
+            type="number"
+            min="1"
+            value={hours}
+            onChange={(e) => setHours(e.target.value)}
+            placeholder="Enter hours"
+            className="mt-2"
+          />
+          <Button className="mt-4">Confirm Booking</Button>
+        </div>
+      )}
+    </div>
+  );
+}
