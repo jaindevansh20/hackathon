@@ -1,7 +1,11 @@
 Resumate (Frontend)
+
+
 Resumate is a modern, visually polished frontend UI for an AI-driven resume builder web app. Built with pure HTML, CSS, and JavaScript, this responsive landing page showcases key features of the resume creation process with a clean, professional aesthetic.
 
 Key Highlights
+
+
 Clean and professional design using the Poppins font and bold color contrasts for a modern UI.
 
 Sticky Navbar with navigation links and call-to-action buttons for seamless site interaction.
