@@ -1,17 +1,17 @@
-Resumate (Frontend) is a sleek, responsive web interface for an AI-powered resume builder. Developed using pure HTML, CSS, and JavaScript, it offers users an intuitive, conversational experience to input resume data in a guided flow.
+Resumate (Frontend)
+Resumate is a modern, visually polished frontend UI for an AI-driven resume builder web app. Built with pure HTML, CSS, and JavaScript, this responsive landing page showcases key features of the resume creation process with a clean, professional aesthetic.
 
-✨ Key UI Features:
+Key Highlights
+Clean and professional design using the Poppins font and bold color contrasts for a modern UI.
 
-Modern dark-themed interface with vibrant accent colors for a professional look.
+Sticky Navbar with navigation links and call-to-action buttons for seamless site interaction.
 
-Chat-style form interaction that mimics a conversational assistant to enhance user engagement.
+Hero Section featuring a strong headline and clear CTA encouraging users to get started.
 
-Dynamic live preview of resume content based on user input.
+Responsive Feature Cards outlining core capabilities like AI-powered generation, ATS optimization, and template flexibility.
 
-Template selector for choosing between compact and detailed resume formats.
+Call-to-Action Footer that reinforces user engagement and leads toward conversion.
 
-Polished animations and transitions for smoother UX.
+Mobile-friendly layout with fluid spacing and scalable components for various screen sizes.
 
-Responsive layout optimized for both desktop and mobile screens.
-
-This frontend is designed with scalability in mind, making it easy to integrate with any backend for real-time resume generation or AI-based suggestions.
+This frontend layout is ideal as the landing page for a full-stack resume builder. It demonstrates strong UI/UX fundamentals and provides a strong visual and structural foundation for backend integration.
