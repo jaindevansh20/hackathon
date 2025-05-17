@@ -1,21 +1,17 @@
-Resumate is an intelligent and interactive web application designed to help users craft professional resumes with ease. Through a conversational interface powered by AI-like logic, Resumate guides users step-by-step to build, preview, and download polished resumes tailored to their profile.
+Resumate (Frontend) is a sleek, responsive web interface for an AI-powered resume builder. Developed using pure HTML, CSS, and JavaScript, it offers users an intuitive, conversational experience to input resume data in a guided flow.
 
-🔧 Key Features
+✨ Key UI Features:
 
-💬 Chat-Based UI: An intuitive, conversational flow for resume input.
+Modern dark-themed interface with vibrant accent colors for a professional look.
 
-🧠 Smart Suggestions: Real-time feedback on tone, grammar, and ATS-friendliness.
+Chat-style form interaction that mimics a conversational assistant to enhance user engagement.
 
-🎨 Elegant Design: Dark-themed, animated interface for a modern look.
+Dynamic live preview of resume content based on user input.
 
-📄 Live Preview: See your resume build up dynamically before generating.
+Template selector for choosing between compact and detailed resume formats.
 
-📥 PDF Export: Generate and download resumes in different templates.
+Polished animations and transitions for smoother UX.
 
-🔐 User System: Authentication and credit system for usage management.
+Responsive layout optimized for both desktop and mobile screens.
 
-
-Frontend: HTML5, CSS3, Vanilla JavaScript
-
-🎯 Why Resumate?
-Whether you're a student or a professional, Resumate simplifies the resume-building process with AI-driven assistance. It blends design, functionality, and user interaction seamlessly — making resume creation smarter, faster, and more effective.
+This frontend is designed with scalability in mind, making it easy to integrate with any backend for real-time resume generation or AI-based suggestions.
